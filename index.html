@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="青い海とサンゴ礁を楽しむ、沖縄のダイビング体験キャンペーン。">
+  <title>AOUMI｜沖縄ダイビング体験</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="logo" href="#" aria-label="AOUMI ホーム">AOUMI <span>OCEAN CLUB</span></a>
+    <nav aria-label="メインナビゲーション">
+      <a href="#about">キャンペーン</a>
+      <a href="#steps">体験の流れ</a>
+      <a href="#apply">お申し込み</a>
+    </nav>
+    <a class="header-cta" href="#apply">予約する ↗</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow">SUMMER OCEAN EXPERIENCE</p>
+        <h1>海の青さに、<br>会いに行こう。</h1>
+        <p class="hero-copy">はじめてのダイビングを、忘れられない夏の思い出に。</p>
+        <a class="primary-button" href="#apply">体験ダイビングに申し込む <span>→</span></a>
+        <div class="hero-note"><span class="note-dot"></span> 初心者歓迎・少人数制ツアー</div>
+      </div>
+      <div class="hero-bottom"><span>OKINAWA, JAPAN</span><span>26°12' N / 127°41' E</span></div>
+    </section>
+
+    <section class="intro section" id="about">
+      <div class="section-label">01 / ABOUT</div>
+      <div class="intro-text">
+        <p class="kicker">YOUR FIRST UNDERWATER ADVENTURE</p>
+        <h2>水面の向こうには、<br><span>もうひとつの世界。</span></h2>
+        <p class="body-copy">透明な海、色とりどりの魚、ゆっくり揺れるサンゴ。AOUMIの体験ツアーは、初めての方でも自分のペースで海を楽しめるプログラムです。</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card">
+          <span class="feature-number">01</span><div class="feature-icon">〰</div>
+          <h3>少人数で安心</h3><p>インストラクターが一人ひとりをサポートします。</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-number">02</span><div class="feature-icon">✳</div>
+          <h3>器材レンタル込み</h3><p>必要な器材はすべてご用意。水着とタオルで参加できます。</p>
+        </article>
+        <article class="feature-card">
+          <span class="feature-number">03</span><div class="feature-icon">◉</div>
+          <h3>写真データ付き</h3><p>海の中で出会った景色を、思い出として持ち帰れます。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="campaign">
+      <div class="campaign-image"></div>
+      <div class="campaign-copy">
+        <p class="kicker">LIMITED SUMMER PLAN</p>
+        <h2>夏限定キャンペーン</h2>
+        <p>この夏、海の世界へ一歩踏み出そう。</p>
+        <div class="price"><strong>¥8,800</strong><span>税込 / お一人様</span></div>
+        <p class="small-note">※ 料金には器材レンタル・ガイド・写真データが含まれます。開催条件は予約時にご確認ください。</p>
+        <a class="dark-button" href="#apply">キャンペーン詳細を見る →</a>
+      </div>
+    </section>
+
+    <section class="steps section" id="steps">
+      <div class="section-label">02 / HOW IT WORKS</div>
+      <div class="steps-heading"><p class="kicker">EASY 3 STEPS</p><h2>体験までの流れ</h2><p>準備はかんたん。あとは海を楽しむだけ。</p></div>
+      <div class="step-list">
+        <article class="step"><div class="step-no">STEP <b>01</b></div><div><h3>フォームから予約</h3><p>希望日と参加人数を入力してください。</p></div><span>↗</span></article>
+        <article class="step"><div class="step-no">STEP <b>02</b></div><div><h3>ショップで説明・準備</h3><p>器材の使い方や安全について丁寧にご案内します。</p></div><span>↗</span></article>
+        <article class="step"><div class="step-no">STEP <b>03</b></div><div><h3>海の世界を体験</h3><p>ガイドと一緒に、ゆっくり水中散歩を楽しみましょう。</p></div><span>↗</span></article>
+      </div>
+    </section>
+
+    <section class="apply" id="apply">
+      <div class="apply-heading"><p class="kicker">BOOK YOUR ADVENTURE</p><h2>お申し込みフォーム</h2><p>必要事項を入力して、予約リクエストを送信してください。</p></div>
+      <form id="booking-form">
+        <label for="name">お名前 <span>必須</span></label>
+        <input id="name" name="name" type="text" placeholder="例：山田 花子" required>
+        <label for="email">メールアドレス <span>必須</span></label>
+        <input id="email" name="email" type="email" placeholder="example@email.com" required>
+        <div class="form-row">
+          <div><label for="date">希望日</label><input id="date" name="date" type="date" required></div>
+          <div><label for="people">参加人数</label><select id="people" name="people"><option>1名</option><option>2名</option><option>3名</option><option>4名以上</option></select></div>
+        </div>
+        <label class="check"><input type="checkbox" required> <span>個人情報の取り扱いに同意します。</span></label>
+        <button class="submit-button" type="submit">予約リクエストを送信 <span>→</span></button>
+        <p class="form-message" id="form-message" role="status"></p>
+        <p class="form-disclaimer">※ デモフォームです。実際の予約送信は行われません。</p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a class="logo footer-logo" href="#">AOUMI <span>OCEAN CLUB</span></a>
+    <p>沖縄の海と、やさしい冒険を。</p>
+    <div class="footer-bottom"><span>© 2026 AOUMI OCEAN CLUB</span><span>SAFETY FIRST · RESPECT THE OCEAN</span></div>
+  </footer>
+  <script>
+    document.getElementById('booking-form').addEventListener('submit', function(event) {
+      event.preventDefault();
+      document.getElementById('form-message').textContent =
+        '入力ありがとうございます！これはデモサイトのため、予約は送信されていません。';
+    });
+  </script>
+</body>
+</html>
